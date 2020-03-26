@@ -1,0 +1,54 @@
+<!DOCTYPE 'html'>
+<html lang='en'>
+<head> 
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> my new site</title>
+
+</head>
+
+<body>
+<div>
+	<img src='logo.jpg' width='150' height='150'>
+
+<h3>Contact Me: 08117728714</h3>
+
+<form action="processform.php" method="POST">
+       
+       <p>
+           <label for="first_name">First Name</label><br />
+            <input type="text" name="first_name" placeholder="Enter Your First Name" />
+       </p>
+
+       <p>
+           <label for="last_name">Last Name</label><br />
+            <input type="text" name="last_name" placeholder="Enter Your Last Name" />
+       </p>
+
+       <p>
+           <label for="email">Email</label><br />
+           <input type="email" name="email" placeholder="Enter Your Email" required />
+       </p>
+
+       <p>
+           <label for="email">Your Message</label><br />
+           <textarea name="message"></textarea>
+         <p>
+			<label for="gender">Gender</label><br />
+			<input type="radio" name="gender" /> Female 
+                        <input type="radio" name="gender" /> Male
+		</p>
+       <select>
+             <option>HR</option>
+            <option>Marketing</option>
+            <option>Board </option>
+            <option>Kitchen</option>
+        </select>
+       
+        <button type="submit">Send Message</button>
+        <p>
+		
+	    <input type="checkbox" name="terms"  required /> By Checking this box you agree to our terms and conditions
+                  
+      </p>
+</form>
